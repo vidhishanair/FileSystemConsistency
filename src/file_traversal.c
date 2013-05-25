@@ -7,16 +7,13 @@
 #include <errno.h>
 #include "proto.h"
 void list(char *d_name)
-{ 
-  puts("hey hi");
+{
   FILE *fp;
-  fp=fopen("/home/vidhisha/FileSystemConsistency/merge/tree.txt","a");
-  puts("opened");
+  fp=fopen("/home/vidhisha/FileSystemConsistency/src/tree.txt","a");
   DIR *dp;
   dp=opendir(d_name);
   struct dirent *ep;
   struct stat* sb;
-  puts("hello");
   sb=malloc(sizeof(struct stat));
   lstat(d_name,sb);
   if(dp!=NULL)

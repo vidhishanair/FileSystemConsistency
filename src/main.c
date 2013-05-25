@@ -4,7 +4,7 @@ int main()
 {
   struct dirent* ep;
   FILE *fp;
-  fp=fopen("/home/vidhisha/FileSystemConsistency/merge/tree.txt","w");
+  fp=fopen("/home/vidhisha/FileSystemConsistency/src/tree.txt","w");
   fputs("",fp);
   fclose(fp);
   list("/home/vidhisha/hello/");
