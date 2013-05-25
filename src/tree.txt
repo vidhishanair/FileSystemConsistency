@@ -1,0 +1,16 @@
+..
+/home/vidhisha/hello/two/
+..
+.
+/home/vidhisha/hello/three/
+..
+.
+/home/vidhisha/hello/one/
+..
+/home/vidhisha/hello/one/five.zipwq/
+/home/vidhisha/hello/one/one.c/
+/home/vidhisha/hello/one/three.c/
+/home/vidhisha/hello/one/two.c/
+/home/vidhisha/hello/one/four.txt/
+.
+.
